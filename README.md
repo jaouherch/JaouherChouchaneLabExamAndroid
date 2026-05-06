@@ -215,6 +215,7 @@ The app adapts to different screen sizes using `WindowSizeClass`:
 - **Images are bundled locally** — All monument images are stored as drawable resources. A future version could load from a remote CDN.
 - **Timer on slow emulators** — On very slow emulators, the countdown timer may occasionally skip a second. Works correctly on physical devices.
 - **No cloud sync** — Progress (streak, mastery %) is stored locally and resets on app uninstall.
+-  **Hints are static** — Hints are not reduced when use uses them.
 
 ---
 
